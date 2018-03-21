@@ -1,5 +1,5 @@
 $(function() {
 
-	// Custom JS
+	$(".test").slick();
 
 });
