@@ -12,4 +12,14 @@ $(function() {
 		arrows:false
 	});
 
+	$(window).on("scroll", function () {
+		if ($(this).scrollTop() > $(this).height()) {
+			$(".main-nav").addClass('is-sticky');
+		}
+		else{
+            $(".main-nav").removeClass('is-sticky');
+		}
+    });
+
+
 });

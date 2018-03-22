@@ -45,7 +45,7 @@ body
 	overflow-x: hidden
 	color: #3b3c3c
 
-h1,h2,h3,h4,h5,h6,p
+h1,h2,h3,h4,h5,h6,p,body
 	padding: 0
 	margin: 0
 
@@ -119,6 +119,13 @@ a
 	background-color: #c8dd99
 	padding: 15px 0
 	color: #313231
+	transition: all .3s
+	&.is-sticky
+		z-index: 9999
+		position: fixed
+		left: 0
+		top: 0
+		right: 0
 	.row
 		justify-content: space-between
 		align-items: center
