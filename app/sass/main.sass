@@ -41,9 +41,13 @@ body
 	font-size: 16px
 	min-width: 320px
 	position: relative
-	line-height: 1.65
 	font-family: $default-font
 	overflow-x: hidden
+	color: #3b3c3c
+
+h1,h2,h3,h4,h5,h6,p
+	padding: 0
+	margin: 0
 
 .img-responsive
 	display: block
@@ -57,4 +61,148 @@ body
 	background-color: $accent
 	color: #fff
 
-@import "media" // Всегда в конце
+.slick-slide
+	outline: none
+
+a
+	cursor: pointer
+	color: inherit
+	text-decoration: none
+
+//CUSTOM
+
+.herobanner
+	height: 100vh
+	position: relative
+
+.herobanner-slider
+	.slick-track
+		height: 100vh
+	&__item
+		img
+			height: 100%
+			width: 100%
+			object-fit: cover
+
+.herobanner-composition
+	position: absolute
+	z-index: 1
+	padding-left: 20px
+	padding-right: 25px
+	height: 91vh
+	left: 50%
+	-webkit-transform: translateX(-50%)
+	-moz-transform: translateX(-50%)
+	-ms-transform: translateX(-50%)
+	-o-transform: translateX(-50%)
+	transform: translateX(-50%)
+	border: 15px solid #ffffff
+	&__inner
+		background-color: rgba(#eee9e9,.7)
+		width: 653px
+		max-width: 100%
+		padding-top: 6px
+	&__logo
+		width: 302px
+		height: 306px
+		margin: 0 auto
+		img
+			width: 100%
+			height: 100%
+			object-fit: cover
+
+.logo
+	display: block
+
+.main-nav
+	background-color: #c8dd99
+	padding: 15px 0
+	color: #313231
+	.row
+		justify-content: space-between
+		align-items: center
+	&__item
+		font-size: 42px
+		letter-spacing: -1.7px
+		border-bottom: 5px solid transparent
+		transition: all .3s
+		&.is-active
+			color: #ffffff
+			border-bottom: 5px solid #FFFFFF
+
+.h2
+	font-size: 72px
+	font-weight: 100
+	letter-spacing: -5.8px;
+	span
+		color: #587902
+		border-bottom: 2px solid currentColor
+
+.page-text
+	text-align: center
+	font-size: 22px
+	letter-spacing: -1.7px;
+	font-weight: 500
+	margin-bottom: 15px
+
+.page-composition
+	width: 100%
+	height: 100%
+	img
+		width: 100%
+		height: 100%
+		object-fit: cover
+
+.about
+	&__line
+		position: relative
+		&:first-child
+			padding-top: 100px
+			margin-bottom: 107px
+			&:after
+				content: 'About us'
+				position: absolute
+				left: 0
+				top: -20px
+				font-size: 167px
+				color: rgba(60, 60, 60, 0.07)
+				line-height: 1
+				letter-spacing: -13.4px
+				font-weight: 300
+			.page-composition
+				padding-top: 35px
+		&:last-child
+			margin-bottom: 95px
+			.row
+				align-items: center
+	.h2
+		margin-bottom: 25px
+
+.about-list
+	&__item
+		display: flex
+		align-items: center
+		margin-bottom: 30px
+		&:first-child
+			.about-list__descr
+				font-style: normal
+		&:nth-child(2)
+			.about-list__descr
+				-webkit-transform: translateY(-20%)
+				-moz-transform: translateY(-20%)
+				-ms-transform: translateY(-20%)
+				-o-transform: translateY(-20%)
+				transform: translateY(-20%)
+				padding-left: 25px
+		&:last-child
+			margin-bottom: 0
+	&__icon
+		margin-right: 13px
+	&__title
+		padding-top: 30px
+		font-size: 40px
+		display: block
+	&__descr
+		font-size: 20px
+		font-style: italic
+
