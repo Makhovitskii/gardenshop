@@ -279,7 +279,24 @@ a
 		border-bottom: 3px solid currentColor
 		margin-bottom: 62px
 		display: inline-block
-
+		position: relative
+		z-index: 1
+	&__heading-wrap
+		position: relative
+		display: inline-block
+		&:after
+			content: 'Testimonials'
+			font-size: 150px
+			position: absolute
+			left: -183px
+			top: 0
+			-webkit-transform: translateY(-50%)
+			-moz-transform: translateY(-50%)
+			-ms-transform: translateY(-50%)
+			-o-transform: translateY(-50%)
+			transform: translateY(-50%)
+			z-index: 0
+			color: rgba(255, 255, 255, 0.97)
 	&__slider-wrap
 		display: flex
 	&__aside
@@ -345,3 +362,22 @@ a
 			-ms-transform: translate(50%, -335px)
 			-o-transform: translate(50%, -335px)
 			transform: translate(50%, -335px)
+			
+.test
+	position: relative
+	display: inline-block
+	&:after
+		content: 'Testimonials'
+		font-size: 150px
+		position: absolute
+		left: -183px
+		top: 0
+		-webkit-transform: translateY(-50%)
+		-moz-transform: translateY(-50%)
+		-ms-transform: translateY(-50%)
+		-o-transform: translateY(-50%)
+		transform: translateY(-50%)
+		z-index: 0
+		color: rgba(255, 255, 255, 0.97)
+		color: red
+	
