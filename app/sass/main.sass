@@ -268,6 +268,7 @@ a
 		color: #30312f
 		border-bottom: 3px solid currentColor
 		margin-bottom: 62px
+		display: inline-block
 
 	&__slider-wrap
 		display: flex
@@ -277,6 +278,9 @@ a
 		left: -215px
 		max-width: 547px
 		max-height: 683px
+		z-index: 2
+	&__content
+		text-align: center
 
 .quotation
 	position: relative
@@ -311,3 +315,23 @@ a
 		display: flex
 		flex-direction: column
 		align-items: flex-end
+
+.contacts
+	height: 711px
+	position: relative
+	&__line
+		height: 100%
+		position: relative
+		padding-top: 105px
+	&__aside
+		position: absolute
+		&--left
+			bottom: 0
+		&--right
+			right: 0
+			top: 0
+			-webkit-transform: translate(50%, -335px)
+			-moz-transform: translate(50%, -335px)
+			-ms-transform: translate(50%, -335px)
+			-o-transform: translate(50%, -335px)
+			transform: translate(50%, -335px)
