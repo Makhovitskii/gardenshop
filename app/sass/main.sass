@@ -86,29 +86,29 @@ a
 
 .herobanner-composition
 	position: absolute
+	padding: 20px
 	z-index: 1
-	padding-left: 20px
-	padding-right: 25px
-	height: 100vh
+	height: 80vh
 	left: 50%
-	-webkit-transform: translateX(-50%)
-	-moz-transform: translateX(-50%)
-	-ms-transform: translateX(-50%)
-	-o-transform: translateX(-50%)
-	transform: translateX(-50%)
-	border: 15px solid #ffffff
+	top: 50%
+	transform: translate(-50%, -50%)
+	border: 10px solid #ffffff
 	&__inner
+		padding-top: 40px
+		padding-bottom: 80px
 		height: 100%
 		background-color: rgba(#eee9e9,.7)
-		width: 653px
+		width: 535px
 		max-width: 100%
-		padding-top: 6px
 		text-align: center
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		align-items: center
 	&__logo
-		width: 274px
-		height: 278px
+		width: 137px
+		height: 139px
 		margin: 0 auto
-		margin-bottom: 134px
 		img
 			width: 100%
 			height: 100%
@@ -116,9 +116,12 @@ a
 
 .logo
 	display: block
+	margin-right: auto
+	img
+		max-width: 150px
 
 .main-nav
-	background-color: #c8dd99
+	background-color: #9dbb4f
 	padding: 15px 0
 	color: #313231
 	transition: all .3s
@@ -129,17 +132,21 @@ a
 		top: 0
 		right: 0
 	.row
-		justify-content: space-between
 		align-items: center
 	&__item
-		font-size: 42px
+		margin-right: 35px
 		letter-spacing: -1.7px
-		border-bottom: 5px solid transparent
+		font-size: 25px
+		border-bottom: 3px solid transparent
 		transition: all .3s
+		color: #FFFFFF
+		font-weight: normal
+		padding-top: 7px
+		padding-bottom: 5px
+		&:last-child
+			margin-right: 0
 		&.is-active
-			color: #ffffff
-			border-bottom: 5px solid #FFFFFF
-
+			border-bottom: 3px solid #FFFFFF
 .h2
 	font-size: 72px
 	font-weight: 100
@@ -149,7 +156,7 @@ a
 		border-bottom: 2px solid currentColor
 
 .page-text
-	text-align: center
+	text-align: left
 	font-size: 22px
 	letter-spacing: -1.7px
 	font-weight: 500
@@ -172,7 +179,7 @@ a
 				content: 'About us'
 				position: absolute
 				left: 0
-				top: -20px
+				top: 40px
 				font-size: 167px
 				color: rgba(60, 60, 60, 0.07)
 				line-height: 1
@@ -193,25 +200,15 @@ a
 		display: flex
 		align-items: center
 		margin-bottom: 30px
-		&:first-child
-			.about-list__descr
-				font-style: normal
-		&:nth-child(2)
-			.about-list__descr
-				-webkit-transform: translateY(-20%)
-				-moz-transform: translateY(-20%)
-				-ms-transform: translateY(-20%)
-				-o-transform: translateY(-20%)
-				transform: translateY(-20%)
-				padding-left: 25px
 		&:last-child
 			margin-bottom: 0
 	&__icon
-		margin-right: 13px
+		margin-right: 25px
 	&__title
 		padding-top: 30px
 		font-size: 40px
 		display: block
+		margin-bottom: 10px
 	&__descr
 		font-size: 20px
 		font-style: italic
@@ -219,7 +216,6 @@ a
 .choose
 	margin-bottom: 240px
 	.h2
-		text-align: center
 		margin-bottom: 40px
 	&__line
 		position: relative
@@ -228,7 +224,7 @@ a
 			content: 'Why choose us'
 			position: absolute
 			left: 0
-			top: -20px
+			top: 40px
 			font-size: 167px
 			color: rgba(60, 60, 60, 0.07)
 			line-height: 1
@@ -274,13 +270,21 @@ a
 		align-items: center
 		justify-content: center
 		position: relative
+		&:before
+			content: ''
+			position: absolute
+			left: 0
+			right: 0
+			top: 0
+			bottom: 0
+			background-color: rgba(#000,.6)
 	.h2
-		color: #30312f
 		border-bottom: 3px solid currentColor
 		margin-bottom: 62px
 		display: inline-block
 		position: relative
 		z-index: 1
+		color: #CED7B0
 	&__heading-wrap
 		position: relative
 		display: inline-block
@@ -289,14 +293,10 @@ a
 			font-size: 150px
 			position: absolute
 			left: -183px
-			top: 0
-			-webkit-transform: translateY(-50%)
-			-moz-transform: translateY(-50%)
-			-ms-transform: translateY(-50%)
-			-o-transform: translateY(-50%)
+			top: 30px
 			transform: translateY(-50%)
 			z-index: 0
-			color: rgba(255, 255, 255, 0.97)
+			color: rgba(255, 255, 255, 0.1)
 	&__slider-wrap
 		display: flex
 	&__aside
@@ -312,7 +312,8 @@ a
 .quotation
 	position: relative
 	display: block
-	margin-right: 40px
+	margin-right: -2px
+	z-index: 1
 	svg
 		width: 102px
 		height: 88px
@@ -331,6 +332,7 @@ a
 		margin-top: -8px
 
 .testimonials-slider
+	color: #FFFFFF
 	font-size: 23px
 	letter-spacing: -1.7px
 	max-width: 565px
