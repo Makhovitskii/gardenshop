@@ -8,6 +8,8 @@ $(function() {
 		$(this).addClass('is-active').siblings().removeClass('is-active');
     });
 
-
+	$(".js-testimonials-slider").slick({
+		arrows:false
+	});
 
 });
