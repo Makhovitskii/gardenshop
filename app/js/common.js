@@ -1,6 +1,9 @@
 $(function() {
 
-	$(".herobanner-slider").slick({
+    AOS.init();
+
+
+    $(".herobanner-slider").slick({
         arrows: false
 	});
 

@@ -2,12 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92411de3-616e-4c57-840e-9cce54ffaeae" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/animate-config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/_base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/attention_seekers/bounce.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/attention_seekers/flash.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/attention_seekers/headShake.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/attention_seekers/jello.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/attention_seekers/pulse.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/attention_seekers/rubberBand.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/attention_seekers/shake.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/attention_seekers/swing.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/attention_seekers/tada.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/attention_seekers/wobble.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/bouncing_entrances/bounceIn.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/bouncing_entrances/bounceInDown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/bouncing_entrances/bounceInLeft.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/bouncing_entrances/bounceInRight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/bouncing_entrances/bounceInUp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/bouncing_exits/bounceOut.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/bouncing_exits/bounceOutDown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/bouncing_exits/bounceOutLeft.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/bouncing_exits/bounceOutRight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/bouncing_exits/bounceOutUp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_entrances/fadeIn.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_entrances/fadeInDown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_entrances/fadeInDownBig.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_entrances/fadeInLeft.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_entrances/fadeInLeftBig.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_entrances/fadeInRight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_entrances/fadeInRightBig.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_entrances/fadeInUp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_entrances/fadeInUpBig.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_exits/fadeOut.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_exits/fadeOutDown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_exits/fadeOutDownBig.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_exits/fadeOutLeft.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_exits/fadeOutLeftBig.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_exits/fadeOutRight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_exits/fadeOutRightBig.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_exits/fadeOutUp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/fading_exits/fadeOutUpBig.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/flippers/flip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/flippers/flipInX.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/flippers/flipInY.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/flippers/flipOutX.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/flippers/flipOutY.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/lightspeed/lightSpeedIn.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/lightspeed/lightSpeedOut.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/rotating_entrances/rotateIn.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/rotating_entrances/rotateInDownLeft.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/rotating_entrances/rotateInDownRight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/rotating_entrances/rotateInUpLeft.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/rotating_entrances/rotateInUpRight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/rotating_exits/rotateOut.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/rotating_exits/rotateOutDownLeft.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/rotating_exits/rotateOutDownRight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/rotating_exits/rotateOutUpLeft.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/rotating_exits/rotateOutUpRight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/sliding_entrances/slideInDown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/sliding_entrances/slideInLeft.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/sliding_entrances/slideInRight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/sliding_entrances/slideInUp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/sliding_exits/slideOutDown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/sliding_exits/slideOutLeft.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/sliding_exits/slideOutRight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/sliding_exits/slideOutUp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/specials/hinge.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/specials/rollIn.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/specials/rollOut.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/zooming_entrances/zoomIn.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/zooming_entrances/zoomInDown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/zooming_entrances/zoomInLeft.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/zooming_entrances/zoomInRight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/zooming_entrances/zoomInUp.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/zooming_exits/zoomOut.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/zooming_exits/zoomOutDown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/zooming_exits/zoomOutLeft.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/zooming_exits/zoomOutRight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/animate.css/source/zooming_exits/zoomOutUp.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.min.css" afterPath="$PROJECT_DIR$/app/css/main.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.min.js" afterPath="$PROJECT_DIR$/app/js/common.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_libs.sass" afterPath="$PROJECT_DIR$/app/sass/_libs.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +105,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="500">
+              <caret line="151" column="105" lean-forward="false" selection-start-line="151" selection-start-column="105" selection-end-line="151" selection-end-column="105" />
               <folding>
                 <element signature="n#style#0;n#svg#0;n#span#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -30,21 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
+            <state relative-caret-position="30">
               <caret line="123" column="21" lean-forward="false" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -66,7 +143,6 @@
       <find>h1</find>
       <find>about-</find>
       <find>page-text</find>
-      <find>about</find>
       <find>page</find>
       <find>page-com</find>
       <find>page-composition</find>
@@ -80,6 +156,11 @@
       <find>body</find>
       <find>margin</find>
       <find>main</find>
+      <find>about</find>
+      <find>js</find>
+      <find>libs</find>
+      <find>ba</find>
+      <find>made wi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,13 +169,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/sass/_vars.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_libs.sass" />
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/js/common.js" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_libs.sass" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -135,7 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -160,27 +240,28 @@
               <item name="gardenshop" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="animate.css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="aos" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="gardenshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="gardenshop" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="animate.css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="animate.css" type="620a8d5e:NestingTreeNode" />
+              <item name="aos" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="SearchEverywhereHistoryKey" value="com&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/js/common.js&#10;libs.s&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_libs.sass&#10;commo&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/js/common.js&#10;vars.sass&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_vars.sass&#10;gitigno&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/.gitignore&#10;common.&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/js/common.js&#10;vars.s&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_vars.sass&#10;libs.sas&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_libs.sass&#10;main.sass&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/main.sass&#10;index&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/index.html&#10;libs.sass&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_libs.sass&#10;index.ht&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/index.html&#10;gulp&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/gulpfile.js&#10;packa&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/package.json" />
+    <property name="SearchEverywhereHistoryKey" value="gulp&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/gulpfile.js&#10;libs.sas&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_libs.sass&#10;com&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/js/common.js&#10;libs.s&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_libs.sass&#10;commo&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/js/common.js&#10;vars.sass&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_vars.sass&#10;gitigno&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/.gitignore&#10;common.&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/js/common.js&#10;vars.s&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_vars.sass&#10;main.sass&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/main.sass&#10;index&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/index.html&#10;libs.sass&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_libs.sass&#10;index.ht&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/index.html&#10;packa&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/package.json" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -208,19 +289,20 @@
       <option name="presentableId" value="Default" />
       <updated>1521664192479</updated>
       <workItem from="1521664196294" duration="30769000" />
-      <workItem from="1521724672025" duration="1878000" />
+      <workItem from="1521724672025" duration="2777000" />
+      <workItem from="1521727501594" duration="1563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32647000" />
+    <option name="totallyTimeSpent" value="35109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24919441" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -279,6 +361,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#span#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_libs.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3690">
+          <caret line="123" column="21" lean-forward="false" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6210">
           <caret line="207" column="10" lean-forward="false" selection-start-line="207" selection-start-column="10" selection-end-line="207" selection-end-column="10" />
           <folding>
@@ -321,14 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -336,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4320">
           <caret line="5" column="14771" lean-forward="false" selection-start-line="5" selection-start-column="14771" selection-end-line="5" selection-end-column="14771" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -359,10 +466,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="40" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/animate.css/animate.min.css">
+    <entry file="file://$PROJECT_DIR$/app/libs/animate.css/animate.min.css" />
+    <entry file="file://$PROJECT_DIR$/app/sass/_libs.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/aos/dist/aos.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -370,37 +487,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_libs.sass">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        <state relative-caret-position="350">
+          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#span#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="90">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
+        <state relative-caret-position="30">
           <caret line="123" column="21" lean-forward="false" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="151" column="105" lean-forward="false" selection-start-line="151" selection-start-column="105" selection-end-line="151" selection-end-column="105" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#span#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
