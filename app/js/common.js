@@ -2,6 +2,8 @@ $(function() {
 
     AOS.init();
 
+    var $mainNav = $(".main-nav");
+
 
     $(".herobanner-slider").slick({
         arrows: false
@@ -17,10 +19,10 @@ $(function() {
 
 	$(window).on("scroll", function () {
 		if ($(this).scrollTop() > $(this).height()) {
-			$(".main-nav").addClass('is-sticky');
+            $mainNav.addClass('is-sticky');
 		}
 		else{
-            $(".main-nav").removeClass('is-sticky');
+            $mainNav.removeClass('is-sticky');
 		}
     });
 
