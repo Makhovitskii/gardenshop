@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92411de3-616e-4c57-840e-9cce54ffaeae" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.min.css" afterPath="$PROJECT_DIR$/app/css/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +30,8 @@
       <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="424" column="24" lean-forward="false" selection-start-line="424" selection-start-column="24" selection-end-line="424" selection-end-column="24" />
+            <state relative-caret-position="606">
+              <caret line="427" column="26" lean-forward="false" selection-start-line="427" selection-start-column="26" selection-end-line="427" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -193,12 +193,12 @@
       <workItem from="1521766243185" duration="30000" />
       <workItem from="1521767638313" duration="7000" />
       <workItem from="1521767663082" duration="514000" />
-      <workItem from="1521803240894" duration="4661000" />
+      <workItem from="1521803240894" duration="5392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55815000" />
+    <option name="totallyTimeSpent" value="56546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -573,8 +573,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="424" column="24" lean-forward="false" selection-start-line="424" selection-start-column="24" selection-end-line="424" selection-end-column="24" />
+        <state relative-caret-position="606">
+          <caret line="427" column="26" lean-forward="false" selection-start-line="427" selection-start-column="26" selection-end-line="427" selection-end-column="26" />
           <folding />
         </state>
       </provider>
