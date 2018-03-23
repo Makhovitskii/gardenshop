@@ -1,6 +1,12 @@
 $(function() {
 
-    AOS.init();
+    //Работа с плагином ANIMATE ON SCROLL
+    AOS.init({
+		once : true,
+        duration : 1000,
+        offset : 250
+	});
+    //Конец работы с плагином ANIMATE ON SCROLL
 
     var $mainNav = $(".main-nav");
 
