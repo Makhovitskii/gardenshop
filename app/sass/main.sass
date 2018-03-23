@@ -293,13 +293,13 @@ a
 		color: #CED7B0
 	&__heading-wrap
 		position: relative
-		display: inline-block
+		text-align: left
 		&:after
 			content: 'Testimonials'
 			font-size: 150px
 			position: absolute
-			left: -183px
 			top: 30px
+			left: 0
 			transform: translateY(-50%)
 			z-index: 0
 			color: rgba(255, 255, 255, 0.1)
@@ -374,18 +374,19 @@ a
 		position: relative
 		z-index: 1
 		border-bottom: 2px solid currentColor
+		color: #587902
 	&__heading-wrap
 		position: relative
 		display: inline-block
+		margin-bottom: 40px
 		&:after
 			content: 'Contacts'
 			font-weight: 300
 			position: absolute
 			font-size: 150px
-			color: rgba(#ff0000,.3)
-			left: -50%
-			top: -100%
-			transform: translate(-10%, -10%)
+			color: rgba(#808080,.1)
+			left: 4%
+			top: -70%
 
 @keyframes zoomIn
 	from
@@ -399,3 +400,27 @@ a
 	animation-duration: 1s
 	animation-name: zoomIn
 	animation-fill-mode: both
+
+.contacts-form
+	&__field
+		display: block
+		width: 100%
+		padding: 15px 15px
+		font-size: 18px
+		margin-bottom: 10px
+		background-color: rgba(#587902,.2)
+		border: 2px solid #587902
+		border-radius: 5px
+		color: rgba(#587902,.7)
+		&::placeholder
+			color: currentColor
+	&__submit
+		border-radius: 5px
+		background-color: transparent
+		border: 5px solid #587902
+		padding: 13px 0
+		color: #587902
+		font-size: 19px
+		width: 200px
+		margin-top: 10px
+
