@@ -8,6 +8,12 @@ $(function() {
 	});
     //Конец работы с плагином ANIMATE ON SCROLL
 
+
+    //плавный скролл
+    jQuery.scrollSpeed(100, 800, 'easeOutCubic');
+    //конец плавный скролл
+
+
     var $mainNav = $(".main-nav");
 
 
