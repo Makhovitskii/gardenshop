@@ -19,6 +19,7 @@ $(function() {
         autoplaySpeed: 2500,
 		fade: true,
         pauseOnHover:false,
+        pauseOnFocus: false,
     });
 
 	$(".main-nav__item").on("click", function () {
@@ -36,6 +37,7 @@ $(function() {
         autoplay: true,
         autoplaySpeed: 5000,
         pauseOnHover:false,
+        pauseOnFocus: false,
 	});
 
 
@@ -53,7 +55,8 @@ $(function() {
                 win.scrollTop() >= pos ? sticky.addClass("is-sticky") : sticky.removeClass("is-sticky");
             });
         }
-    }
+    };
+
 
 
 });
