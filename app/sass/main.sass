@@ -135,6 +135,9 @@ p
 	background-color: #9dbb4f
 	padding: 20px 0
 	color: #313231
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,.5)
+	position: relative
+	z-index: 10
 	&--clone
 		position: fixed;
 		z-index: 999;
@@ -144,8 +147,10 @@ p
 		background-color: #9dbb4f
 		transition: all 300ms ease-in-out
 		transform: translateY(-100%)
+		box-shadow: none
 	&--stick
 		transform: translateY(0%)
+		box-shadow: 0 5px 10px 0 rgba(0,0,0,.5)
 	.row
 		align-items: center
 	&__item
