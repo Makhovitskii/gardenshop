@@ -41,21 +41,22 @@ $(function() {
 	});
 
 
-    createSticky($(".main-nav"));
-
-
-    function createSticky(sticky) {
-
-        if (typeof sticky !== "undefined") {
-
-            var	pos = sticky.offset().top,
-                win = $(window);
-
-            win.on("scroll", function() {
-                win.scrollTop() >= pos ? sticky.addClass("is-sticky") : sticky.removeClass("is-sticky");
-            });
-        }
-    };
+    createStickyNav ();
+    function createStickyNav () {
+        var options = {
+            offset: $(window).height() + $(".main-nav").height() + 30,
+            offsetSide: 'top',
+            classes: {
+                clone:   'main-nav--clone',
+                stick:   'main-nav--stick',
+                unstick: 'main-nav--unstick'
+            }
+        };
+        // Initialise with options
+        var mainNav = new Headhesive('.main-nav', options);
+        // Headhesive destroy
+        // banner.destroy();
+    }
 
 
 
