@@ -18,6 +18,7 @@ $(function() {
         autoplay: true,
         autoplaySpeed: 2500,
 		fade: true,
+        pauseOnHover:false,
     });
 
 	$(".main-nav__item").on("click", function () {
@@ -34,6 +35,7 @@ $(function() {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 5000,
+        pauseOnHover:false,
 	});
 
 	$(window).on("scroll", function () {
