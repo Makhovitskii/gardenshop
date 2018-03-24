@@ -38,14 +38,22 @@ $(function() {
         pauseOnHover:false,
 	});
 
-	$(window).on("scroll", function () {
-		if ($(this).scrollTop() > $(this).height()) {
-            $mainNav.addClass('is-sticky');
-		}
-		else{
-            $mainNav.removeClass('is-sticky');
-		}
-    });
+
+    createSticky($(".main-nav"));
+
+
+    function createSticky(sticky) {
+
+        if (typeof sticky !== "undefined") {
+
+            var	pos = sticky.offset().top,
+                win = $(window);
+
+            win.on("scroll", function() {
+                win.scrollTop() >= pos ? sticky.addClass("is-sticky") : sticky.removeClass("is-sticky");
+            });
+        }
+    }
 
 
 });
