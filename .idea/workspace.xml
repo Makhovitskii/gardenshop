@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92411de3-616e-4c57-840e-9cce54ffaeae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.min.css" afterPath="$PROJECT_DIR$/app/css/main.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.min.js" afterPath="$PROJECT_DIR$/app/js/common.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +18,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="230" column="73" lean-forward="false" selection-start-line="230" selection-start-column="73" selection-end-line="230" selection-end-column="73" />
+            <state relative-caret-position="458">
+              <caret line="287" column="0" lean-forward="false" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -33,21 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="470" column="33" lean-forward="false" selection-start-line="470" selection-start-column="33" selection-end-line="470" selection-end-column="33" />
+            <state relative-caret-position="278">
+              <caret line="445" column="27" lean-forward="false" selection-start-line="445" selection-start-column="27" selection-end-line="445" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -57,9 +44,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>animated</find>
-      <find>svg</find>
-      <find>text</find>
       <find>testimonials</find>
       <find>contacts__heading-wrap</find>
       <find>cont</find>
@@ -87,6 +71,9 @@
       <find>p</find>
       <find>#5e5e5e</find>
       <find>slider__</find>
+      <find>phone.svg</find>
+      <find>+30-6977664062</find>
+      <find>social</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,9 +87,9 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/sass/_libs.sass" />
         <option value="$PROJECT_DIR$/app/img/vk.svg" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -148,7 +135,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="SearchEverywhereHistoryKey" value="add&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/address.svg&#10;opened-email-envelope&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/opened-email-envelope.svg&#10;mail&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/mail.svg&#10;vk&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/vk.svg&#10;fax.s&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/fax.svg&#10;fax&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/fax.svg&#10;girl&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/girl.svg&#10;libs.sass&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_libs.sass&#10;animate.css&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/libs/animate.css/animate.css&#10;animate&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/libs/animate.css/animate.min.css&#10;comm&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/js/common.js&#10;gulp&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/gulpfile.js&#10;libs.sas&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_libs.sass&#10;com&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/js/common.js&#10;libs.s&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_libs.sass&#10;commo&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/js/common.js&#10;vars.sass&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_vars.sass&#10;gitigno&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/.gitignore&#10;common.&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/js/common.js&#10;vars.s&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_vars.sass&#10;main.sass&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/main.sass&#10;index&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/index.html&#10;index.ht&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/index.html&#10;packa&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/package.json" />
+    <property name="SearchEverywhereHistoryKey" value="phone&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/phone.svg&#10;add&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/address.svg&#10;opened-email-envelope&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/opened-email-envelope.svg&#10;mail&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/mail.svg&#10;vk&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/vk.svg&#10;fax.s&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/fax.svg&#10;fax&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/fax.svg&#10;girl&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/img/girl.svg&#10;libs.sass&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_libs.sass&#10;animate.css&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/libs/animate.css/animate.css&#10;animate&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/libs/animate.css/animate.min.css&#10;comm&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/js/common.js&#10;gulp&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/gulpfile.js&#10;libs.sas&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_libs.sass&#10;com&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/js/common.js&#10;libs.s&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_libs.sass&#10;commo&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/js/common.js&#10;vars.sass&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_vars.sass&#10;gitigno&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/.gitignore&#10;common.&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/js/common.js&#10;vars.s&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/_vars.sass&#10;main.sass&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/sass/main.sass&#10;index&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/index.html&#10;index.ht&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/app/index.html&#10;packa&#9;FILE&#9;file://C:/OSPanel/domains/gardenshop/package.json" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -193,7 +180,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63224000" />
+    <option name="totallyTimeSpent" value="63976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -269,19 +256,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13380">
@@ -637,6 +611,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -644,6 +619,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="3303" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3303" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -651,6 +627,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -658,6 +635,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="730">
           <caret line="51" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -665,19 +643,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="730">
           <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="230" column="73" lean-forward="false" selection-start-line="230" selection-start-column="73" selection-end-line="230" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -689,10 +655,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/phone.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="287" column="0" lean-forward="false" selection-start-line="287" selection-start-column="0" selection-end-line="287" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="470" column="33" lean-forward="false" selection-start-line="470" selection-start-column="33" selection-end-line="470" selection-end-column="33" />
+        <state relative-caret-position="278">
+          <caret line="445" column="27" lean-forward="false" selection-start-line="445" selection-start-column="27" selection-end-line="445" selection-end-column="27" />
           <folding />
         </state>
       </provider>
