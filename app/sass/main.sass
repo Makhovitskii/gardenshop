@@ -186,6 +186,17 @@ p
 		&:first-child
 			padding-top: 100px
 			margin-bottom: 107px
+			&:before
+				content: ''
+				position: absolute
+				left: -380px
+				top: 0
+				height: 774px
+				width: 400px
+				background: #fff url('../img/leaves.png') 0 0 no-repeat
+				background-size: cover
+				transform: rotate(180deg)
+				opacity: 0.10
 			&:after
 				content: 'About us'
 				position: absolute
@@ -201,6 +212,16 @@ p
 				height: 526px
 		&:last-child
 			margin-bottom: 95px
+			&:after
+				content: ''
+				position: absolute
+				right: -335px
+				top: 0
+				width: 363px
+				height: 575px
+				background: #fff url('../img/leaves.png') 0 0 no-repeat
+				background-size: cover
+				opacity: 0.10
 			.row
 				align-items: center
 	.h2
@@ -231,6 +252,17 @@ p
 	&__line
 		position: relative
 		padding-top: 100px
+		&:before
+			content: ''
+			position: absolute
+			left: -350px
+			top: 100px
+			width: 363px
+			height: 675px
+			background: #fff url('../img/leaves.png') 0 0 no-repeat
+			background-size: cover
+			transform: scaleX(-1)
+			opacity: 0.10
 		&:after
 			content: 'Why choose us'
 			position: absolute
@@ -289,6 +321,17 @@ p
 			top: 0
 			bottom: 0
 			background-color: rgba(#000,.6)
+		&:after
+			content: ''
+			position: absolute
+			left: 50%
+			top: 100%
+			width: 491px
+			height: 400px
+			background: #fff url('../img/leaves.png') 0 0 no-repeat
+			background-size: cover
+			transform: translate(-50%, 0) scale(-1,-1)
+			opacity: 0.10
 	.h2
 		border-bottom: 3px solid currentColor
 		margin-bottom: 62px
@@ -458,7 +501,7 @@ p
 	font-size: 18px
 	padding: 20px 0
 	color: #FFFFFF
-	background-color: #9dbb4f
+	//background-color: #9dbb4f
 	.row
 		align-items: center
 	&__logo
