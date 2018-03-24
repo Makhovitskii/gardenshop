@@ -22,6 +22,10 @@ $(function() {
 
 	$(".main-nav__item").on("click", function () {
 		$(this).addClass('is-active').siblings().removeClass('is-active');
+		var target = $($(this).attr("data-scrollTo")).offset().top;
+        $( "html,body" ).animate({
+            scrollTop : target - $mainNav.height()
+        }, 1000 );
     });
 
 	$(".js-testimonials-slider").slick({
