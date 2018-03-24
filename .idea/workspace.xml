@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92411de3-616e-4c57-840e-9cce54ffaeae" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/home-location-marker.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/location.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/marker.svg" afterPath="$PROJECT_DIR$/app/img/marker.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +20,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="420" column="485" lean-forward="false" selection-start-line="420" selection-start-column="485" selection-end-line="420" selection-end-column="485" />
+            <state relative-caret-position="60">
+              <caret line="418" column="0" lean-forward="false" selection-start-line="418" selection-start-column="0" selection-end-line="418" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#svg#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -32,11 +34,19 @@
       <file leaf-file-name="marker.svg" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/img/marker.svg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="36" lean-forward="true" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-              <folding>
-                <marker date="1521926133655" expanded="true" signature="824:830" ph="..." />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maps-and-flags.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/img/maps-and-flags.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,8 +93,8 @@
       <find>soci</find>
       <find>--marker</find>
       <find>fill</find>
-      <find>width</find>
       <find>widt</find>
+      <find>width</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,6 +111,7 @@
         <option value="$PROJECT_DIR$/app/js/common.js" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/app/img/marker.svg" />
+        <option value="$USER_HOME$/Downloads/if_Location_728975.svg" />
         <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
@@ -154,36 +165,6 @@
               <item name="gardenshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="gardenshop" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="gardenshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gardenshop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="gardenshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gardenshop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Headhesive.js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="gardenshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gardenshop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Headhesive.js" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="gardenshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gardenshop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Headhesive.js" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="headhesive.js" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -239,12 +220,12 @@
       <workItem from="1521833368277" duration="1983000" />
       <workItem from="1521901965896" duration="6981000" />
       <workItem from="1521909248542" duration="5141000" />
-      <workItem from="1521919194988" duration="6936000" />
+      <workItem from="1521919194988" duration="7516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84949000" />
+    <option name="totallyTimeSpent" value="85529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -308,34 +289,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8130">
-          <caret line="271" column="26" lean-forward="true" selection-start-line="271" selection-start-column="26" selection-end-line="271" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6510">
@@ -344,7 +297,6 @@
             <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -365,7 +317,6 @@
             <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -386,7 +337,6 @@
             <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -422,7 +372,6 @@
             <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -682,26 +631,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/location-pin.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/maps-and-flags.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/if_Location_728975.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="239" lean-forward="false" selection-start-line="0" selection-start-column="234" selection-end-line="0" selection-end-column="239" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="420" column="485" lean-forward="false" selection-start-line="420" selection-start-column="485" selection-end-line="420" selection-end-column="485" />
+        <state relative-caret-position="60">
+          <caret line="418" column="0" lean-forward="false" selection-start-line="418" selection-start-column="0" selection-end-line="418" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/img/marker.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="36" lean-forward="true" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          <folding>
-            <marker date="1521926133655" expanded="true" signature="824:830" ph="..." />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
