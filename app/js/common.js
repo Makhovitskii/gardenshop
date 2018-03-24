@@ -12,8 +12,13 @@ $(function() {
 
 
     $(".herobanner-slider").slick({
-        arrows: false
-	});
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+		fade: true,
+    });
 
 	$(".main-nav__item").on("click", function () {
 		$(this).addClass('is-active').siblings().removeClass('is-active');
