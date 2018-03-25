@@ -65,29 +65,7 @@ $(function() {
             }
         });
 
-    }
-
-    // createStickyNav ();
-    // function createStickyNav () {
-    //     var options = {
-    //         offset: $(window).height() + $(".main-nav").height() + 30,
-    //         offsetSide: 'top',
-    //         classes: {
-    //             clone:   'main-nav--clone',
-    //             stick:   'main-nav--stick',
-    //             unstick: 'main-nav--unstick'
-    //         }
-    //     };
-    //     var mainNav = new Headhesive('.main-nav', options);
-    // }
-
-
-
-
-
-
-
-
+    };
 
 
 });
