@@ -26,6 +26,12 @@ $(function() {
 		fade: true,
         pauseOnHover:false,
         pauseOnFocus: false,
+        responsive: [
+            {
+                breakpoint: 640,
+                settings: "unslick",
+            }
+        ]
     });
 
     $(".main-nav__link").on("click", function (event) {
