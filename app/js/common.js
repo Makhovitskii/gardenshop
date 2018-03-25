@@ -74,4 +74,12 @@ $(function() {
     };
 
 
+
+    $(".burger").on("click", function (event) {
+        $(this).toggleClass('burger--close');
+        $(this).closest(".main-nav").toggleClass('is-shown');
+        $(".dimmer").toggleClass('is-shown');
+    });
+
+
 });
