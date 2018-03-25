@@ -28,9 +28,9 @@ $(function() {
         pauseOnFocus: false,
     });
 
-	$(".main-nav__item").on("click", function () {
+	$(" .main-nav__item").on("click", function () {
 		$(this).addClass('is-active').siblings().removeClass('is-active');
-		var target = $($(this).attr("data-scrollTo")).offset().top;
+		var target = $($(this).attr("href")).offset().top;
         $( "html,body" ).animate({
             scrollTop : target - $mainNav.height()
         }, 1000 );
@@ -63,6 +63,57 @@ $(function() {
         // Headhesive destroy
         // banner.destroy();
     }
+
+
+    //HTML2CANVAS
+
+    $(function () {
+        html2canvas($("body"), {
+            onrendered: function (canvas) {
+                $(".blurheader").append(canvas);
+                $("canvas").attr("id", "canvas");
+                stackBlurCanvasRGB(
+                    'canvas',
+                    0,
+                    0,
+                    $("canvas").width(),
+                    $("canvas").height(),
+                    20);
+            }
+        });
+        vv = setTimeout(function () {
+            $("header").show();
+            clearTimeout(vv);
+        }, 200);
+    });
+
+    $(window).scroll(function () {
+        $("canvas").css(
+            "-webkit-transform",
+            "translatey(-" + $(window).scrollTop() + "px)");
+    });
+
+    window.onresize = function () {
+        $("canvas").width($(window).width());
+    };
+
+    $(document).bind('touchmove', function () {
+        $("canvas").css(
+            "-webkit-transform",
+            "translatey(-" + $(window).scrollTop() + "px)");
+    });
+
+    $(document).bind('touchend', function () {
+        $("canvas").css(
+            "-webkit-transform",
+            "translatey(-" + $(window).scrollTop() + "px)");
+    });
+
+    //HTML2CANVAS
+
+
+
+
 
 
 

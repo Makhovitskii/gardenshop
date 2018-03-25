@@ -132,9 +132,9 @@ p
 		max-width: 150px
 
 .main-nav
-	background-color: #9dbb4f
+	background-color: #E7E7E7
 	padding: 20px 0
-	color: #313231
+	color: #587902
 	box-shadow: 0 5px 10px 0 rgba(0,0,0,.5)
 	position: relative
 	z-index: 10
@@ -144,29 +144,31 @@ p
 		top: 0;
 		left: 0;
 		width: 100%
-		background-color: #9dbb4f
+		background-color: rgba(#E7E7E7,.5)
 		transition: all 300ms ease-in-out
 		transform: translateY(-100%)
 		box-shadow: none
+
 	&--stick
 		transform: translateY(0%)
 		box-shadow: 0 5px 10px 0 rgba(0,0,0,.5)
 	.row
 		align-items: center
+	&__list
+		display: flex
 	&__item
 		margin-right: 35px
-		
 		font-size: 25px
-		border-bottom: 3px solid transparent
+		border-bottom: 1px solid transparent
 		transition: all .3s
-		color: #FFFFFF
+		color: #587902
 		font-weight: 200
 		padding-top: 7px
 		padding-bottom: 5px
 		&:last-child
 			margin-right: 0
 		&.is-active
-			border-bottom: 3px solid #FFFFFF
+			border-bottom: 1px solid currentColor
 .h2
 	font-size: 72px
 	font-weight: 200
@@ -525,3 +527,4 @@ p
 p.testimonials-slider__author,
 p.testimonials-slider__occupation
 	color: #ffffff !important
+
