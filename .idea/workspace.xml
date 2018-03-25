@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="126" column="36" lean-forward="false" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
+            <state relative-caret-position="600">
+              <caret line="237" column="30" lean-forward="false" selection-start-line="237" selection-start-column="30" selection-end-line="237" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -30,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="330" column="35" lean-forward="false" selection-start-line="330" selection-start-column="35" selection-end-line="330" selection-end-column="35" />
+            <state relative-caret-position="366">
+              <caret line="400" column="31" lean-forward="false" selection-start-line="400" selection-start-column="31" selection-end-line="400" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -44,11 +44,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>test</find>
-      <find>garde</find>
-      <find>herobanne</find>
-      <find>focus</find>
-      <find>main-ma</find>
       <find>opacity</find>
       <find>social</find>
       <find>8905</find>
@@ -74,6 +69,11 @@
       <find>page-com</find>
       <find>about</find>
       <find>main-nav</find>
+      <find>choose-lis</find>
+      <find>c</find>
+      <find>row</find>
+      <find>choose</find>
+      <find>choose-list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,8 +90,8 @@
         <option value="$USER_HOME$/Downloads/if_Location_728975.svg" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
-        <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
       </list>
     </option>
   </component>
@@ -201,12 +201,12 @@
       <workItem from="1521909248542" duration="5141000" />
       <workItem from="1521919194988" duration="20752000" />
       <workItem from="1521986300481" duration="1113000" />
-      <workItem from="1522006255970" duration="11013000" />
+      <workItem from="1522006255970" duration="12132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110982000" />
+    <option name="totallyTimeSpent" value="112101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -539,23 +539,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="330" column="35" lean-forward="false" selection-start-line="330" selection-start-column="35" selection-end-line="330" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="126" column="36" lean-forward="false" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
+        <state relative-caret-position="600">
+          <caret line="237" column="30" lean-forward="false" selection-start-line="237" selection-start-column="30" selection-end-line="237" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="400" column="31" lean-forward="false" selection-start-line="400" selection-start-column="31" selection-end-line="400" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -318,7 +318,8 @@ p
 				margin-right: auto
 	.h2
 		margin-bottom: 25px
-		text-align: center
+		@media (max-width: 992px)
+			text-align: center
 
 .about-list
 	&__item
@@ -344,6 +345,8 @@ p
 	margin-bottom: 240px
 	.h2
 		margin-bottom: 40px
+		@media (max-width: 992px)
+			text-align: center
 	&__line
 		position: relative
 		padding-top: 100px
@@ -372,6 +375,10 @@ p
 			align-items: flex-end
 		.page-composition
 			padding-bottom: 34px
+			@media (max-width: 992px)
+				padding-top: 34px
+				padding-bottom: 0
+				margin: 0 auto
 
 .choose-list
 	margin-top: 95px
@@ -381,17 +388,26 @@ p
 		margin-bottom: 32px
 		&:nth-child(2)
 			padding-left: 75px
+			@media (max-width: 555px)
+				padding-left: 0
 		&:nth-child(3)
 			padding-left: 150px
+			@media (max-width: 555px)
+				padding-left: 0
 		&:last-child
 			margin-bottom: 0
 			padding-left: 225px
+			@media (max-width: 555px)
+				padding-left: 0
 	&__icon
 		margin-right: 44px
 	&__text
 		font-weight: 300
 		font-size: 38px
-		
+		@media (max-width: 1200px)
+			font-size: 29px
+		@media (max-width: 768px)
+			font-size: 27px
 
 .testimonials
 	padding-bottom: 364px
