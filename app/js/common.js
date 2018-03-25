@@ -14,7 +14,7 @@ $(function() {
     //конец плавный скролл
 
 
-    var $mainNav = $(".main-nav");
+    // var $mainNav = $(".main-nav");
 
 
     $(".herobanner-slider").slick({
@@ -28,13 +28,18 @@ $(function() {
         pauseOnFocus: false,
     });
 
-	$(" .main-nav__item").on("click", function () {
-		$(this).addClass('is-active').siblings().removeClass('is-active');
-		var target = $($(this).attr("href")).offset().top;
+    $(".main-nav__link").on("click", function (event) {
+		$(this).parent().addClass('is-active');
+        $(this).parent().siblings().removeClass('is-active');
+        var target = $($(this).attr("href")).offset().top;
         $( "html,body" ).animate({
-            scrollTop : target - $mainNav.height()
+            scrollTop : target - (($(".main-nav").height() / 2))
         }, 1000 );
+        console.log(target);
+        return false;
     });
+
+
 
 	$(".js-testimonials-slider").slick({
         arrows: false,
@@ -44,72 +49,40 @@ $(function() {
         autoplaySpeed: 5000,
         pauseOnHover:false,
         pauseOnFocus: false,
-	});
+    });
 
-
-    createStickyNav ();
-    function createStickyNav () {
-        var options = {
-            offset: $(window).height() + $(".main-nav").height() + 30,
-            offsetSide: 'top',
-            classes: {
-                clone:   'main-nav--clone',
-                stick:   'main-nav--stick',
-                unstick: 'main-nav--unstick'
+    stickyHeader();
+	function stickyHeader() {
+        var $mainNavClone = $(".main-nav"),
+            $mainNavCloneHeight = $mainNavClone.height();
+        $(window).on('scroll', function () {
+            var scroll = $(this).scrollTop();
+            if (scroll > $(this).height() + $mainNavCloneHeight + 50) {
+                $mainNavClone.addClass('main-nav--stick');
             }
-        };
-        // Initialise with options
-        var mainNav = new Headhesive('.main-nav', options);
-        // Headhesive destroy
-        // banner.destroy();
-    }
-
-
-    //HTML2CANVAS
-
-    $(function () {
-        html2canvas($("body"), {
-            onrendered: function (canvas) {
-                $(".blurheader").append(canvas);
-                $("canvas").attr("id", "canvas");
-                stackBlurCanvasRGB(
-                    'canvas',
-                    0,
-                    0,
-                    $("canvas").width(),
-                    $("canvas").height(),
-                    20);
+            else{
+                $mainNavClone.removeClass('main-nav--stick');
             }
         });
-        vv = setTimeout(function () {
-            $("header").show();
-            clearTimeout(vv);
-        }, 200);
-    });
 
-    $(window).scroll(function () {
-        $("canvas").css(
-            "-webkit-transform",
-            "translatey(-" + $(window).scrollTop() + "px)");
-    });
+    }
 
-    window.onresize = function () {
-        $("canvas").width($(window).width());
-    };
+    // createStickyNav ();
+    // function createStickyNav () {
+    //     var options = {
+    //         offset: $(window).height() + $(".main-nav").height() + 30,
+    //         offsetSide: 'top',
+    //         classes: {
+    //             clone:   'main-nav--clone',
+    //             stick:   'main-nav--stick',
+    //             unstick: 'main-nav--unstick'
+    //         }
+    //     };
+    //     var mainNav = new Headhesive('.main-nav', options);
+    // }
 
-    $(document).bind('touchmove', function () {
-        $("canvas").css(
-            "-webkit-transform",
-            "translatey(-" + $(window).scrollTop() + "px)");
-    });
 
-    $(document).bind('touchend', function () {
-        $("canvas").css(
-            "-webkit-transform",
-            "translatey(-" + $(window).scrollTop() + "px)");
-    });
 
-    //HTML2CANVAS
 
 
 
