@@ -204,7 +204,7 @@ p
 		top: 0;
 		left: 0;
 		width: 100%
-		background-color: rgba(#E7E7E7,.5)
+		background-color: rgba(#E7E7E7,.9)
 		transition: all 300ms ease-in-out
 		transform: translateY(-100%)
 		box-shadow: none
@@ -265,10 +265,9 @@ p
 		margin-bottom: 0
 
 .page-composition
-	width: 100%
-	height: 100%
-	object-fit: cover
-
+	display: block
+	max-width: 100%
+	height: auto
 .about
 	&__line
 		position: relative
@@ -298,7 +297,8 @@ p
 				font-weight: 300
 			.page-composition
 				padding-top: 35px
-				height: 526px
+				@media (max-width: 992px)
+					padding-top: 50px
 		&:last-child
 			margin-bottom: 95px
 			&:after
@@ -313,8 +313,12 @@ p
 				opacity: 0.20
 			.row
 				align-items: center
+			.page-composition
+				margin-left: auto
+				margin-right: auto
 	.h2
 		margin-bottom: 25px
+		text-align: center
 
 .about-list
 	&__item
@@ -323,6 +327,8 @@ p
 		margin-bottom: 30px
 		&:last-child
 			margin-bottom: 0
+			@media (max-width: 992px)
+				margin-bottom: 30px
 	&__icon
 		margin-right: 25px
 	&__title
