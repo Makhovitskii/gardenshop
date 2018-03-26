@@ -74,6 +74,7 @@ $(function() {
     });
 
 
+    //SMOOTH PAGE SCROLL
     $("body").mCustomScrollbar({
         theme:"minimal",
     });
