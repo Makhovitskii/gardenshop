@@ -213,6 +213,8 @@ p
 		box-shadow: 0 2px 15px 0 rgba(0,0,0,.2)
 	.row
 		align-items: center
+		padding-left: 15px
+		padding-right: 15px
 	&__list
 		display: flex
 		@media (max-width: 768px)
@@ -258,9 +260,10 @@ p
 .page-text
 	text-align: left
 	font-size: 22px
-	
 	font-weight: 500
 	margin-bottom: 15px
+	//@media (max-width: 992px)
+	//	text-align: center
 	&:last-child
 		margin-bottom: 0
 
@@ -340,9 +343,10 @@ p
 	&__descr
 		font-size: 20px
 		font-style: italic
+		line-height: 1.4
 
 .choose
-	margin-bottom: 240px
+	margin-bottom: 100px
 	.h2
 		margin-bottom: 40px
 		@media (max-width: 992px)
@@ -613,16 +617,30 @@ p
 	padding: 20px 0
 	color: #FFFFFF
 	background-color: #3B3C3C
+	@media (max-width: 768px)
+		padding: 30px 0
 	.row
+		padding-left: 15px
+		padding-right: 15px
 		align-items: center
+		@media (max-width: 768px)
+			flex-direction: column
 	&__logo
 		margin-right: 50px
+		@media (max-width: 768px)
+			margin-bottom: 20px
 		img
 			max-width: 130px
 	&__author
 		margin-left: auto
+		@media (max-width: 768px)
+			margin-left: 0
 		span
 			color: #587902
+	&__copyright
+		@media (max-width: 768px)
+			margin-bottom: 20px
+			text-align: center
 
 p.testimonials-slider__author,
 p.testimonials-slider__occupation
