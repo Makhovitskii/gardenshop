@@ -237,6 +237,8 @@ p
 		font-weight: 200
 		padding-top: 7px
 		padding-bottom: 5px
+		@media (max-width: 992px)
+			font-size: 20px
 		@media (max-width: 768px)
 			margin-right: 0
 			padding: 0
@@ -329,6 +331,9 @@ p
 		display: flex
 		align-items: center
 		margin-bottom: 30px
+		@media (max-width: 435px)
+			flex-direction: column
+			text-align: center
 		&:last-child
 			margin-bottom: 0
 			@media (max-width: 992px)
@@ -390,6 +395,8 @@ p
 		display: flex
 		align-items: center
 		margin-bottom: 32px
+		@media (max-width: 555px)
+			justify-content: center
 		&:nth-child(2)
 			padding-left: 75px
 			@media (max-width: 555px)
@@ -412,12 +419,14 @@ p
 			font-size: 29px
 		@media (max-width: 768px)
 			font-size: 27px
+		@media (max-width: 555px)
+			width: 50%
 
 .testimonials
 	padding-bottom: 364px
 	&__container
-		max-width: 1540px
-		width: 100%
+		width: 1540px
+		max-width: 100%
 		min-height: 481px
 		margin-left: auto
 		margin-right: auto
@@ -428,6 +437,7 @@ p
 		align-items: center
 		justify-content: center
 		position: relative
+		z-index: 1
 		&:before
 			content: ''
 			position: absolute
@@ -454,16 +464,24 @@ p
 		position: relative
 		z-index: 1
 		color: #CED7B0
+		@media (max-width: 480px)
+			font-size: 62px
+		@media (max-width: 430px)
+			font-size: 52px
+		@media (max-width: 350px)
+			font-size: 42px
 	&__heading-wrap
 		position: relative
 		text-align: left
+		@media (max-width: 992px)
+			text-align: center
 		&:after
 			content: 'Testimonials'
 			font-size: 150px
 			position: absolute
 			top: 30px
 			left: 0
-			transform: translateY(-50%)
+			transform: translate(0,-50%)
 			z-index: 0
 			color: rgba(255, 255, 255, 0.1)
 	&__slider-wrap
@@ -471,10 +489,12 @@ p
 	&__aside
 		position: absolute
 		top: 17px
-		left: -215px
-		max-width: 547px
-		max-height: 683px
+		left: -13%
+		width: 35%
 		z-index: 2
+		img
+			max-width: 100%
+			height: auto
 	&__content
 		text-align: center
 
@@ -483,6 +503,8 @@ p
 	display: block
 	margin-right: -2px
 	z-index: 1
+	@media (max-width: 768px)
+		display: none
 	svg
 		width: 102px
 		height: 88px
@@ -503,18 +525,41 @@ p
 .testimonials-slider
 	color: #FFFFFF
 	font-size: 23px
-	
 	max-width: 565px
+	@media (max-width: 480px)
+		font-size: 20px
+	@media (max-width: 590px)
+		max-width: 500px
+	@media (max-width: 525px)
+		max-width: 400px
+	@media (max-width: 430px)
+		max-width: 370px
+		font-size: 18px
+	@media (max-width: 430px)
+		max-width: 340px
+	@media (max-width: 350px)
+		max-width: 280px
+		font-size: 16px
 	&__text
 		padding-left: 20px
 		text-align: left
 		margin-bottom: 30px
+		line-height: 1.4
+		@media (max-width: 992px)
+			text-align: center
+		@media (max-width: 768px)
+			padding-left: 0
 	&__author
 		font-weight: bold
+		line-height: 1.4
+	&__occupation
+		line-height: 1.4
 	&__target
 		display: flex
 		flex-direction: column
 		align-items: flex-end
+		@media (max-width: 992px)
+			align-items: center
 
 .contacts
 	height: 711px
