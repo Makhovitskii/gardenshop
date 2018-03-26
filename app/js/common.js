@@ -74,10 +74,10 @@ $(function() {
     });
 
 
-    //SMOOTH PAGE SCROLL
-    $("body").mCustomScrollbar({
-        theme:"minimal",
-    });
+    // //SMOOTH PAGE SCROLL
+    // $("body").mCustomScrollbar({
+    //     theme:"minimal",
+    // });
 
 
 
