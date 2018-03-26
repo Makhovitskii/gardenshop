@@ -30,7 +30,7 @@ gulp.task('js', ['common-js'], function() {
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/slick-carousel/slick/slick.min.js',
 		'app/libs/aos/dist/aos.js',
-		'app/libs/jQuery.scrollSpeed/jQuery.scrollSpeed.js',
+		'app/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js',
 		'app/js/common.min.js', // Всегда в конце/
 		])
 	.pipe(concat('scripts.min.js'))

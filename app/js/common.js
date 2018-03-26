@@ -5,16 +5,8 @@ $(function() {
 		once : true,
         duration : 1000,
         offset : 250
-	});
+    });
     //Конец работы с плагином ANIMATE ON SCROLL
-
-
-    //плавный скролл
-    jQuery.scrollSpeed(100, 800, 'easeOutCubic');
-    //конец плавный скролл
-
-
-    // var $mainNav = $(".main-nav");
 
 
     $(".herobanner-slider").slick({
@@ -80,6 +72,12 @@ $(function() {
         $(this).closest(".main-nav").toggleClass('is-shown');
         $(".dimmer").toggleClass('is-shown');
     });
+
+
+    $("body").mCustomScrollbar({
+        theme:"minimal",
+    });
+
 
 
 });
