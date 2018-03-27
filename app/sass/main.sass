@@ -276,8 +276,8 @@ p
 	font-size: 22px
 	font-weight: 500
 	margin-bottom: 15px
-	//@media (max-width: 992px)
-	//	text-align: center
+	@media (max-width: 992px)
+		text-align: center
 	&:last-child
 		margin-bottom: 0
 
@@ -437,8 +437,8 @@ p
 .testimonials
 	padding-bottom: 364px
 	&__container
-		//width: 1540px
-		width: 100%
+		width: 1540px
+		max-width: 100%
 		min-height: 481px
 		margin-left: auto
 		margin-right: auto
@@ -501,8 +501,9 @@ p
 	&__aside
 		position: absolute
 		top: 17px
-		left: -13%
-		width: 35%
+		left: 0
+		width: 26%
+		transform: translateX(-50%)
 		z-index: 2
 		img
 			max-width: 100%

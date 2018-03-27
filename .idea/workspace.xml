@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92411de3-616e-4c57-840e-9cce54ffaeae" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/img/testimonials-aside.png" afterPath="$PROJECT_DIR$/app/img/testimonials-aside.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.min.css" afterPath="$PROJECT_DIR$/app/css/main.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.js" afterPath="$PROJECT_DIR$/app/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/common.min.js" afterPath="$PROJECT_DIR$/app/js/common.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/scripts.min.js" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="124" column="32" lean-forward="false" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
+            <state relative-caret-position="322">
+              <caret line="285" column="39" lean-forward="true" selection-start-line="285" selection-start-column="39" selection-end-line="285" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -49,8 +47,8 @@
       <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="249" column="49" lean-forward="false" selection-start-line="249" selection-start-column="49" selection-end-line="249" selection-end-column="49" />
+            <state relative-caret-position="456">
+              <caret line="503" column="15" lean-forward="false" selection-start-line="503" selection-start-column="15" selection-end-line="503" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -60,7 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>row</find>
       <find>choose-list</find>
       <find>pagetext</find>
       <find>page-text</find>
@@ -69,7 +66,6 @@
       <find>footer</find>
       <find>about</find>
       <find>choose-lis</find>
-      <find>testimonial</find>
       <find>contacts</find>
       <find>testimonia</find>
       <find>testimoni</find>
@@ -81,7 +77,6 @@
       <find>testti</find>
       <find>testimonials-slid</find>
       <find>author</find>
-      <find>test</find>
       <find>jquery.scr</find>
       <find>body</find>
       <find>burger</find>
@@ -90,6 +85,9 @@
       <find>main-nav--c</find>
       <find>main-nav</find>
       <find>main</find>
+      <find>page</find>
+      <find>test</find>
+      <find>testimonial</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,8 +103,8 @@
         <option value="$USER_HOME$/Downloads/if_Location_728975.svg" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/sass/_libs.sass" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
       </list>
     </option>
@@ -226,12 +224,12 @@
       <workItem from="1522110782165" duration="42000" />
       <workItem from="1522125337220" duration="1608000" />
       <workItem from="1522126950144" duration="5000" />
-      <workItem from="1522161773656" duration="2809000" />
+      <workItem from="1522161773656" duration="3695000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136375000" />
+    <option name="totallyTimeSpent" value="137261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -544,8 +542,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="124" column="32" lean-forward="false" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
+        <state relative-caret-position="322">
+          <caret line="285" column="39" lean-forward="true" selection-start-line="285" selection-start-column="39" selection-end-line="285" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#span#0;n#div#1;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -564,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="249" column="49" lean-forward="false" selection-start-line="249" selection-start-column="49" selection-end-line="249" selection-end-column="49" />
+        <state relative-caret-position="456">
+          <caret line="503" column="15" lean-forward="false" selection-start-line="503" selection-start-column="15" selection-end-line="503" selection-end-column="15" />
           <folding />
         </state>
       </provider>
