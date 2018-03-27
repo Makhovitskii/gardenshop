@@ -436,10 +436,11 @@ p
 
 .testimonials
 	padding-bottom: 414px
-	@media (max-width: 992px)
+	@media (max-width: 1200px)
 		padding-bottom: 0
 	&__container
-		width: 1540px
+		//width: 1540px
+		width: 100%
 		max-width: 100%
 		min-height: 481px
 		margin-left: auto
@@ -471,7 +472,7 @@ p
 			background-size: cover
 			transform: translate(-50%, 0) scale(-1,-1)
 			opacity: 0.20
-			@media (max-width: 992px)
+			@media (max-width: 1200px)
 				display: none
 	.h2
 		border-bottom: 3px solid currentColor
@@ -589,8 +590,12 @@ p
 		height: 100%
 		position: relative
 		padding-top: 105px
+		@media (max-width: 1200px)
+			padding-top: 65px
 		@media (max-width: 992px)
 			text-align: center
+		@media (max-width: 540xpx)
+			padding-bottom: 45px
 	&__aside
 		padding-left: 0
 		padding-right: 0
