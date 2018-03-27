@@ -51,15 +51,17 @@ $(function() {
 
     stickyHeader();
 	function stickyHeader() {
-        var $mainNavClone = $(".main-nav"),
+        var $mainNavClone = $(".main-nav--clone"),
             $mainNavCloneHeight = $mainNavClone.height();
         $(window).on('scroll', function () {
             var scroll = $(this).scrollTop();
             if (scroll > $(this).height() + $mainNavCloneHeight + 50) {
+                $(".main-nav").removeClass('is-shown').end().find('.burger').removeClass('burger--close');
                 $mainNavClone.addClass('main-nav--stick');
             }
             else{
-                $mainNavClone.removeClass('main-nav--stick');
+                $mainNavClone.removeClass('main-nav--stick is-shown');
+                $mainNavClone.find('.burger').removeClass('burger--close');
             }
         });
 
@@ -70,7 +72,9 @@ $(function() {
     $(".burger").on("click", function (event) {
         $(this).toggleClass('burger--close');
         $(this).closest(".main-nav").toggleClass('is-shown');
-        $(".dimmer").toggleClass('is-shown');
+        $(this).closest('.main-nav').siblings().removeClass('is-shown');
+        $(this).closest(".main-nav").siblings().find('.burger').removeClass('burger--close');
+        // $(".dimmer").toggleClass('is-shown');
     });
 
 
