@@ -42,7 +42,7 @@ body
 	min-width: 320px
 	position: relative
 	font-family: $default-font
-	overflow-x: hidden
+	overflow-x: hidden !important
 	color: #3b3c3c
 
 h1,h2,h3,h4,h5,h6,p,body,ul,li
@@ -276,8 +276,8 @@ p
 	font-size: 22px
 	font-weight: 500
 	margin-bottom: 15px
-	//@media (max-width: 992px)
-	//	text-align: center
+	@media (max-width: 992px)
+		text-align: center
 	&:last-child
 		margin-bottom: 0
 
@@ -435,10 +435,12 @@ p
 			width: 50%
 
 .testimonials
-	padding-bottom: 364px
+	padding-bottom: 414px
+	@media (max-width: 992px)
+		padding-bottom: 0
 	&__container
-		//width: 1540px
-		width: 100%
+		width: 1540px
+		max-width: 100%
 		min-height: 481px
 		margin-left: auto
 		margin-right: auto
@@ -469,6 +471,8 @@ p
 			background-size: cover
 			transform: translate(-50%, 0) scale(-1,-1)
 			opacity: 0.20
+			@media (max-width: 992px)
+				display: none
 	.h2
 		border-bottom: 3px solid currentColor
 		margin-bottom: 62px
@@ -574,29 +578,62 @@ p
 			align-items: center
 
 .contacts
-	height: 711px
+	min-height: 711px
 	position: relative
+	background-image: url('../img/contacts-bg.jpg')
+	background-size: cover
+	&__form-wrapper
+		@media (max-width: 992px)
+			justify-content: center
 	&__line
 		height: 100%
 		position: relative
 		padding-top: 105px
+		@media (max-width: 992px)
+			text-align: center
 	&__aside
+		padding-left: 0
+		padding-right: 0
 		position: absolute
 		&--left
 			bottom: -4px
+			@media (max-width: 1460px)
+				width: 320px
+			@media (max-width: 1370px)
+				width: 270px
+			@media (max-width: 1290px)
+				width: 230px
+			@media (max-width: 1200px)
+				display: none
+			img
+				max-width: 100%
+				height: auto
 		&--right
 			right: 0
 			top: 0
-			-webkit-transform: translate(50%, -335px)
-			-moz-transform: translate(50%, -335px)
-			-ms-transform: translate(50%, -335px)
-			-o-transform: translate(50%, -335px)
-			transform: translate(50%, -335px)
+			width: 475px
+			height: auto
+			transform: translate(50%, -50%)
+			@media (max-width: 1640px)
+				max-width: 380px
+			@media (max-width: 1500px)
+				transform: translate(30%,-80%)
+			@media (max-width: 1310px)
+				max-width: 300px
+				transform: translate(15%,-70%)
+			@media (max-width: 1200px)
+				display: none
+			img
+				display: block
+				max-width: 100%
+				height: auto
 	.h2
 		position: relative
 		z-index: 1
 		border-bottom: 2px solid currentColor
 		color: #587902
+		@media (max-width: 360px)
+			font-size: 55px
 	&__heading-wrap
 		position: relative
 		display: inline-block
@@ -609,7 +646,8 @@ p
 			color: rgba(#808080,.1)
 			left: 4%
 			top: -70%
-
+			@media (max-width: 992px)
+				left: -50%
 @keyframes zoomIn
 	from
 		opacity: 0
@@ -653,21 +691,46 @@ p
 			background-color: #587902
 			color: #FFFFFF
 
+.social-wrap
+	@media (max-width: 992px)
+		justify-content: center
+
 .social
 	font-size: 18px
 	display: flex
 	flex-wrap: wrap
+	text-align: left
 	&__item
 		width: 50%
 		margin-bottom: 20px
+		@media (max-width: 540px)
+			width: 100%
+			margin-bottom: 25px
+		&:nth-child(3)
+			.social__text
+				margin-left: 4px
+		&:last-child
+			.social__text
+				margin-left: 5px
+			svg
+				@media (max-width: 992px)
+					margin-left: 9px
+				@media (max-width: 540px)
+					margin-left: 0
 	&__link
 		display: flex
 		align-items: center
+		@media (max-width: 540px)
+			flex-direction: column
+			text-align: center
 		svg
 			fill: #587902
 			width: 40px
 			height: 40px
 			margin-right: 10px
+			@media (max-width: 540px)
+				margin-right: 0
+				margin-bottom: 10px
 .footer
 	font-weight: 300
 	font-size: 16px
