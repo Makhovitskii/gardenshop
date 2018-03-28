@@ -74,7 +74,7 @@ $(function() {
         $(this).closest(".main-nav").toggleClass('is-shown');
         $(this).closest('.main-nav').siblings().removeClass('is-shown');
         $(this).closest(".main-nav").siblings().find('.burger').removeClass('burger--close');
-        // $(".dimmer").toggleClass('is-shown');
+        $(".dimmer").toggleClass('is-shown');
     });
 
 
